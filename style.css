@@ -1,0 +1,118 @@
+body {
+  font-family: "Times New Roman";
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+
+.header {
+  padding: 50px;
+  text-align: center;
+    background: #a063f7;
+  /* green background */
+  color: white;
+  /* white text color */
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; /* Dark background color */
+}
+
+.navbar img {
+  margin-right: 30%;
+}
+
+.navbar a {
+
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+
+.main {
+  margin: 0 200px 0 200px;
+  text-align: center;
+}
+
+.slide {
+  margin: 50px 50px;
+}
+
+.product-header {
+  margin: 50px auto auto 50px;
+}
+
+.product-txt {
+  margin: 0 70px 100px 100px;
+}
+
+.product-card {
+  margin: 60px 100px 60px 10px;
+}
+
+.card-img-top:hover {}
+
+
+.card-img-top:hover {
+  background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+      );
+}
+
+.top-product-name {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.top-product-image {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.contact-row {
+  margin: 200px 10px 40px 200px;
+
+}
+
+.contact-header {
+  margin: 100px 10px 20px 100px;
+}
+.contact-detail {
+  margin: 10px 10px 20px 100px;
+  font-style: italic;
+}
+
+.map {
+  max-width: 90%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  margin-right: 100px;
+
+}
